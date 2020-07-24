@@ -1,0 +1,35 @@
+/* transition */
+.box {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    transition: all 500ms 0s ease;
+  }
+  
+.timing-function-ease-in {
+    transition-timing-function: ease-in;
+}
+
+.timing-function-bounce {
+    transition-timing-function: cubic-bezier(0, 1.8, 1, 1.8); 
+}
+
+.active {
+    transform: translateX(300px);
+    background: #ff0000;
+}
+
+/* scroll-animation */
+.scroll-animation {
+     /* いったん非表示 */
+    opacity: 0; /* 透明度 */
+    /* visibility: hidden; */
+    transform: translateY(40px);
+    transition: all 1s;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
